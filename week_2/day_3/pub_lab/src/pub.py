@@ -79,4 +79,15 @@ class Pub:
 
     def sell_drink(self, customer, drink):
         if self.check_drink(drink):
-            pass
+            if self.check_age(customer) and self.check_drunk(customer) == False:
+                self.remove_foods(drink, 1)
+                self.till += drink.price
+                customer.wallet -= drink.price
+    
+    def sell_foods(self, customer, food):
+        # if self.check_food(food):  write this function
+            if self.check_age(customer) and self.check_drunk(customer) == False:
+                self.remove_foods(food, 1)
+                self.till += food.price
+                customer.wallet -= food.price
+

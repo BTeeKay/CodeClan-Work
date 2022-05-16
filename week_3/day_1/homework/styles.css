@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+  }
+
+.top-header {
+    background-color: dodgerblue;
+}
+
+.banner {
+    text-align: end;
+}
+
+.banner > ul > li {
+    display: inline;
+}
+
+.left-bit {
+    position: left;
+}
+
+.right-bit {
+    position: right;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#endin {
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 15px;
+}
+

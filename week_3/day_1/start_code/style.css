@@ -1,0 +1,46 @@
+body {
+    background-color: red;
+    margin: 100px;
+    font-family: "Fredoka One", sans-serif;
+}
+
+body > footer > p {
+    background-color: yellowgreen;
+    padding: 16px;
+    color: whitesmoke;
+    text-align: center;
+    border: 2px;
+}
+
+body > header {
+    background-color: rebeccapurple;
+    color: gainsboro
+}
+
+#logo {
+    margin: 0;
+    font-family: "Fredoka One", sans-serif;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul > li > a {
+    color: cadetblue;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto
+}
+
+.like-button {
+    background-color: yellow;
+    border: 1px solid dodgerblue;
+}
+
+.share-button {
+    background-color: yellow;
+    border: 1px solid dodgerblue;
+}

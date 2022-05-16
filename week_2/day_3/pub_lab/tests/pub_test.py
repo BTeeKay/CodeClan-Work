@@ -63,11 +63,17 @@ class TestPub(unittest.TestCase):
         self.pub1.add_drinks(self.drink1, 1)
         self.assertTrue(self.pub1.check_drink(self.drink1))
     
-    # def test_sell_drinks(self):
-    #     self.pub1.add_drinks(self.drink1, 3)
-    #     self.pub1.sell_drink(self.customer1, self.drink1)
-    #     self.assertEqual(104.50, self.pub1.till)
-    #     self.assertEqual(95.5, self.customer1.wallet)
+    def test_sell_drinks(self):
+        self.pub1.add_drinks(self.drink1, 3)
+        self.pub1.sell_drink(self.customer1, self.drink1)
+        self.assertEqual(104.50, self.pub1.till)
+        self.assertEqual(95.5, self.customer1.wallet)
+
+    def test_sell_foods(self):
+        self.pub1.add_foods(self.food1, 3)
+        self.pub1.sell_foods(self.customer1, self.food1)
+        self.assertEqual(108.00, self.pub1.till)
+        self.assertEqual(92.00, self.customer1.wallet)
 
     
 

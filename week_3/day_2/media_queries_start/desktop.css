@@ -1,0 +1,14 @@
+@media (min-width: 1080px) {
+    
+    body > main {
+        background-color: hotpink;
+    }
+
+    body > header{
+        flex-direction: row;
+    }
+
+    body > main {
+        flex-direction: row;
+    }
+}

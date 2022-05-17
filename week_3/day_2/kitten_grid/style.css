@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  body > header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+  }
+  
+  body > header > h1 {
+    padding-left: 16px;
+    color: white;
+  }
+  
+  body > header > nav > ul {
+    margin: 0;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  body > header > nav > ul > li > a {
+    padding-right: 8px;
+    color: white;
+    text-decoration: none;
+  }
+
+  body > main {
+      display: flex;
+      width: 60%;
+      margin: auto;
+  }
+
+  body > main > article > footer {
+      display: flex;
+  }
+
+  body > main > article > footer > img {
+    padding-right: 16px;
+  }
+  
+  body > footer {
+    padding: 32px;
+    background-color: dodgerblue;
+    color: white;
+  }
+
+#footer-container {
+    display: flex
+}
+
+body > footer {
+    justify-content: center;
+}

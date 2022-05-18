@@ -1,0 +1,40 @@
+body {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-area: auto;
+    background-color: plum;
+}
+
+header {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    color: white
+}
+
+
+main {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    padding: 20px;
+    color: white
+}
+
+main > a {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: center;
+    color: white
+}
+
+a {
+    color: red;
+    text-decoration: dashed;
+}

@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
     <title>{{ title }}</title>
 </head>
 <body>
+    <header>
+        <h1>Order List</h1>
+    </header>
     
+    <main>
     {% for order in orders %}
     <p>
     {{ order.customer_name }} bought {{ order.quantity }} of {{ order.game_name }}
@@ -15,6 +20,10 @@
     <a href="/orders/{{ order.order_number }}">see order here</a>
     </p>
     {% endfor %}
-    
+    </main>
+
+    <footer>
+        <h3>Brian Made This</h3>
+    </footer>
 </body>
 </html>

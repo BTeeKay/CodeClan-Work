@@ -1,0 +1,41 @@
+{% extends "template.html" %}
+
+{% block content %}
+<header>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a class="active" href="/play">Play</a></li>
+      </ul> 
+</header>
+
+<div class="row">
+  <div class="col-1">
+    <h1>Play Against The Computer:</h1>
+  <form method="post" name="answer">
+    <input type="submit" name="answer" value="rock">
+  </form>
+  <form method="post" name="answer">
+    <input type="submit" name="answer" value="paper">
+  </form>
+  <form method="post" name="answer">
+    <input type="submit" name="answer" value="scissor">
+  </form>
+  </div>
+  <div class="col-2">
+    <h2>Result:</h2>
+    {% if c1 != "" %}
+      <p>Player picked {{ c1 }} and Computer picked {{ c2 }}</p>
+    {% endif %}
+
+    {% if result == "Player1 wins" %}
+      <p>You win! You beat the computer!</p>
+    {% endif %}
+    {% if result == "Player2 wins" %}
+      <p>The computer beat you... you should be ashamed</p>
+    {% endif %}
+    {% if result == None %}
+      <p>You drew with the computer...</p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

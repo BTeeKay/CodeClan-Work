@@ -1,0 +1,23 @@
+{% extends "template.html" %}
+
+{% block content %}
+<header>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/play">Play</a></li>
+        <li><a class="active" href="/{{c1}}/{{c2}}">Here</a></li>     
+    </ul> 
+</header>
+{% if result != None %}
+{{ result }}
+{% endif %}
+{% if result == "Player2 wins"%}
+by using {{ c2 }} against {{ c1 }}
+{% endif %}
+{% if result == "Player1 wins"%}
+by using {{ c1 }} against {{ c2 }}
+{% endif %}
+{% if result == None %}
+Nobody wins, you both picked {{ c1 }}
+{% endif %}
+{% endblock %}

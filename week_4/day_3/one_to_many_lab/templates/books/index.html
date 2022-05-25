@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+
+{% block content %}
+<header>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a class="active" href="/books">Books</a></li>
+    </ul> 
+</header>
+
+{% for book in all_books %}
+    <a href="/books/{{ book.id }}">{{ book.title }} by {{ book.author.name }}</a>
+{% endfor %}
+{% endblock %}

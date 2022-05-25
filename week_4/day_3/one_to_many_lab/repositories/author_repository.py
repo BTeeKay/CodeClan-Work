@@ -34,12 +34,12 @@ def select(id):
 
 
 def delete_all():
-    sql = "DELETE  FROM authors"
+    sql = "DELETE FROM authors"
     run_sql(sql)
 
 
 def delete(id):
-    sql = "DELETE  FROM authors WHERE id = ?"
+    sql = "DELETE FROM authors WHERE id = ?"
     values = [id]
     run_sql(sql, values)
 
@@ -49,11 +49,11 @@ def update(author):
     values = [author.name, author.age, author.id]
     run_sql(sql, values)
 
-def get_books(book):
+def get_books(author):
     books = []
 
-    sql = "SELECT * FROM books WHERE book_id = ?"
-    values = [book.id]
+    sql = "SELECT * FROM books WHERE author_id = ?"
+    values = [author.id]
     results = run_sql(sql, values)
 
     for row in results:

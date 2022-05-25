@@ -13,5 +13,4 @@ def index():
     authors = author_repository.select_all()
     books = book_repository.select_all()
 
-
     return render_template("/books/index.html", title="Books", all_books=books, all_authors=authors)

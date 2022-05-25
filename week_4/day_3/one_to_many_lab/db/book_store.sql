@@ -1,0 +1,19 @@
+PRAGMA FOREIGN_KEYS = ON;
+
+DROP TABLE IF EXISTS books;
+DROP TABLE IF EXISTS authors;
+
+CREATE TABLE authors (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(80),
+    age INTEGER
+);
+
+CREATE TABLE books (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title VARCHAR(80),
+    genre VARCHAR(20),
+    pages INTEGER,
+    author_id,
+    FOREIGN KEY (author_id) REFERENCES authors (id)
+);

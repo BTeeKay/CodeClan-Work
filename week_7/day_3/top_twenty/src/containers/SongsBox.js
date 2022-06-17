@@ -9,7 +9,7 @@ const SongsBox = () => {
         getSongs();
     }, [])
 
-    const getSongs = function() {
+    const getSongs = () => {
         // fetch('https://itunes.apple.com/gb/rss/topsongs/limit=20/json')
         fetch('https://itunes.apple.com/gb/rss/topsongs/limit=20/genre=21/json')
         .then(result => result.json())

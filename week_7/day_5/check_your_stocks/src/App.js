@@ -5,7 +5,10 @@ import StockContainer from './containers/StockContainer';
 
 function App() {
   return (
-    <StockContainer />
+    <div className="main" >
+      <h1>Get Stock Prices</h1>
+      <StockContainer />
+    </div>
   );
 }
 

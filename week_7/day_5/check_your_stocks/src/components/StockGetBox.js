@@ -5,7 +5,7 @@ const StockGetBox = ({getApiStocks, stockNameFromUser}) => {
 
     return (
         <>
-            <h3>This is StockGetBox </h3>
+            <h3>Enter your stock below</h3>
             <StockInputText getApiStocks={getApiStocks} stockNameFromUser={stockNameFromUser}/>
         </>
     )

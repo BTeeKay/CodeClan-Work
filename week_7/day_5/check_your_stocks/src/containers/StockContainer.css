@@ -1,9 +1,10 @@
 .StockContainer {
-    /* display: flex;
-    flex: auto; */
     justify-content: center;
     text-align: center;
-    border: 20px black solid;
-    color: red;
-    background-color: rgb(195, 194, 194);
+    color: white;
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
 }

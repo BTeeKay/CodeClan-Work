@@ -26,7 +26,7 @@ console.log(stockName)
 
     return (
         <div className="StockContainer">
-        <h2>Made by Brian Kerr</h2>
+        <h2>BTK Designs 2022 &copy;</h2>
         <StockGetBox getApiStocks={getApiStocks} stockNameFromUser={stockNameFromUser}/>
         { stocks ? <StockShowBox stocks={stocks}/> : null }
         </div>

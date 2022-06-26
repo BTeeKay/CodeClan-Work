@@ -21,6 +21,10 @@ def is_palindrome(s):
     else:
         return False
 
-print(is_palindrome(string1))
-print(is_palindrome(string2))
-print(is_palindrome(string3))
+# print(is_palindrome(string1))
+# print(is_palindrome(string2))
+# print(is_palindrome(string3))
+
+myNewList = [1,1,2,2,3]
+print(set(myNewList))
+print(sum(set(myNewList)))

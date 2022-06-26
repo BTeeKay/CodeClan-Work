@@ -7,7 +7,7 @@ const MunroSelect = ({munros, onMunroChange}) => {
       })
 
     const handleChange = (event) => {
-        const chosenIndex = event.target.value;
+        const chosenIndex = (event.target.value - 1);
         const munro = munros[chosenIndex]
         onMunroChange(munro)
     }

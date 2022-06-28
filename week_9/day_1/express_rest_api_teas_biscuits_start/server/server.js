@@ -12,11 +12,11 @@ const teas = [
 ];
 
 const biscuits = [
-  { name: "Digestives", brand: "McVitie’s" },
-  { name: "Hobnobs", brand: "McVitie’s"},
+  { name: "Digestives", brand: "McVitie's" },
+  { name: "Hobnobs", brand: "McVitie's"},
   { name: "Shortbreads", brand: "Walkers" },
-  { name: "Jammy Dodgers", brand: "Burton’s" },
-  { name: "Custard Creams", brand: "Crawford’s" },
+  { name: "Jammy Dodgers", brand: "Burton's" },
+  { name: "Custard Creams", brand: "Crawford's" },
  ];
 
 app.use(cors());

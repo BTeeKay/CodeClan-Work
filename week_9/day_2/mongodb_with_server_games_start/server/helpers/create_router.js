@@ -52,7 +52,7 @@ router.delete('/:id', function (req, res) {
     const id = req.params.id;
     collection
     .deleteOne({_id:ObjectId(id)})
-    .then((doc) => res.json(doc))
+    .then((docs) => res.json(docs))
     .catch((error) => {
       console.error(error);
       res.status(500);

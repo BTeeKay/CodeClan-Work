@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72229c68-e6da-41f0-8def-35766191f3e6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/day_1/SingleClasses/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_1/SingleClasses/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_1/SingleClasses/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_1/SingleClasses/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_1/SingleClasses/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_1/SingleClasses/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_1/SingleClasses/src/main/java/org/example/FoobarPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_1/SingleClasses/src/main/resources/FoobarPojo.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_1/SingleClasses/src/main/resources/META-INF/jboss-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week_1/day_2" beforeDir="false" afterPath="$PROJECT_DIR$/../week_1/day_2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week_9/day_2/lab_full_stack_post_birds_start/server/helpers/create_router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../week_9/day_2/lab_full_stack_post_birds_start/server/helpers/create_router.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2C9k4ikjLHLfSZLLAGpO61reQTz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72229c68-e6da-41f0-8def-35766191f3e6" name="Changes" comment="" />
+      <created>1658221999080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658221999080</updated>
+    </task>
+    <servers />
+  </component>
+</project>

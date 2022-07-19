@@ -63,6 +63,18 @@ const createRouter = function (collection) {
   })
   })
 
+  router.put('/:id', function (req, res) {
+    const id = req.params.id;
+    const updatedSighting = req.body;
+    collection
+    .updateOne(
+      { _id:ObjectId(id) },
+      {$set: updatedSighting}
+      )
+    .then((result) => res.json(result))
+  
+  });
+
   return router;
 };
 

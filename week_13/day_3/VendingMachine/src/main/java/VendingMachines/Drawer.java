@@ -6,9 +6,9 @@ import java.util.ArrayList;
 
 public class Drawer {
 
-    Code code;
-    int price;
-    ArrayList<Product> products;
+    private Code code;
+    private int price;
+    private ArrayList<Product> products;
 
     public Drawer(Code code, int price) {
         this.code = code;

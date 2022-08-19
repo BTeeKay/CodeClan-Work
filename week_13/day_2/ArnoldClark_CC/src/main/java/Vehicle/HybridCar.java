@@ -1,2 +1,4 @@
-package Vehicle;public class HybridCar {
+package Vehicle;
+
+public class HybridCar {
 }
